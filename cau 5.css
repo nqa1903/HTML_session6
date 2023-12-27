@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+body{
+    background:linear-gradient(to right, #040404, #000000, #656565);
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.7);
+    padding : 16px 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding : 16px 0;
+}
+
+ul > li{
+    width: fit-content;
+}
+
+.about{
+    margin-top: 16px;
+}
+
+.about > h1{
+    background-color: transparent;
+}
+
+.color{
+    color : rgb(175, 60, 60);
+}
+
+.about > p{
+    padding: 16px 0;
+}
+
+.butt{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding : 16px 0;
+}
+
+.butt .left , .right {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #040404;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+.conduct{
+    margin-top: 16px;
+    text-align: center;
+}
+
+.conduct > p , img{ 
+    padding : 16px 0;
+}
+
+footer{
+    text-align: right;
+    padding: 16px;
+}
